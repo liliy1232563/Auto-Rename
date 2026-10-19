@@ -29,7 +29,7 @@ class Config(object):
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/32868ad78c7aa21fbee0e-29b30110f512502ee7.jpg")
     LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://graph.org/file/d576e39ee97f148220b6f-e35bd3aec949bcd11f.jpg")
     OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", ""))
+    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1003732810856"))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     FSUB_PIC = os.environ.get("FSUB_PIC", "https://graph.org/file/a2b3a073440d1e4872c6a-6b4f0c516b95802dc0.jpg")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
