@@ -23,15 +23,15 @@ class Config(object):
  
     # other configs
     ADMIN_URL = "https://t.me/Tg_jiro/24"
-    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1002257657458")
+    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "")
     DUMP = True
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://ibb.co/Cs0zsrCn")
-    LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://ibb.co/RGx4RmDg")
-    OWNER_ID = int(os.environ.get("OWNER_ID", "6701907262"))
-    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1003732810856"))
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/32868ad78c7aa21fbee0e-29b30110f512502ee7.jpg")
+    LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://graph.org/file/d576e39ee97f148220b6f-e35bd3aec949bcd11f.jpg")
+    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", ""))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
-    FSUB_PIC = os.environ.get("FSUB_PIC", "")
+    FSUB_PIC = os.environ.get("FSUB_PIC", "https://graph.org/file/a2b3a073440d1e4872c6a-6b4f0c516b95802dc0.jpg")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
     LEADERBOARD_DELETE_TIMER = 30
     # wes response configuration     
@@ -118,6 +118,6 @@ class Config(object):
 
 # ----------------------------------------
 # 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @EmptyJohan
+# 𝐓𝐆 𝐈𝐃 : 
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
