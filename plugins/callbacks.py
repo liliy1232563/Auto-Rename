@@ -62,8 +62,8 @@ async def cb_handler(client, query: CallbackQuery):
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("• ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs •", callback_data='help')],
-                    [InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs', url='https://t.me/cantarellabots'), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', url='https://t.me/+diDK3GRvvvlhZTQ1')],
-                    [InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/seishiro_obito')]
+                    [InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Solurix_bots'), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', url='https://t.me/+0bPLOJYCDysxYTY1')],
+                    [InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/Tg_jiro/24')]
                 ])
             )
         elif data == "caption":
@@ -71,7 +71,7 @@ async def cb_handler(client, query: CallbackQuery):
                 text=Config.CAPTION_TXT,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ", url='https://t.me/+diDK3GRvvvlhZTQ1'), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="help")]
+                    [InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ", url='https://t.me/+0bPLOJYCDysxYTY1'), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="help")]
                 ])
             )
         elif data == "help":
